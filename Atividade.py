@@ -11,18 +11,14 @@ while sala < 9:
     print("[2] - Caminho preto")
     caminho = int(input())
 
-    if(sala == 6):
-        
-        print("Escolha seu caminho: ")
-        print("[2] - Caminho preto")
-        caminho = int(input())
-        sala =+ 2
+    if(caminho == 1):
+        sala +=1
+        print("Você está na sala: ", sala)
 
-    elif(sala == 8):
-        print("Escolha seu caminho: ")
-        print("[1] - Caminho vermelho")
-        print("[2] - Caminho preto")
-        caminho = int(input())
+
+    elif(caminho == 2):
+        sala +=2    
+        print("Você está na sala: ", sala)
 
 
 print("PARABENS NERDOLA")
